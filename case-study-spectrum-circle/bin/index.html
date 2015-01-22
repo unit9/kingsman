@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Kingsman : Case Study : Spectrum Circle</title>
+		<!-- <link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'> -->
+		<style type="text/css">
+			html, body 		{ font-family: 'Monda', sans-serif; font-size: 14px; background: #222; color:#fff; margin: 0; overflow: hidden; }
+			#labels			{ position: absolute; top: 80%; left: 50%; width:400px; margin-left:-200px; text-align: center; }
+			#feedback 		{ color:#666; }
+		</style>
+	</head>
+	<body>
+		<div id="container"></div>
+		<div id="labels">
+			<div id="instruction">drop an audio file</div>
+			<div id="feedback">-</div>
+		</div>
+
+		<!-- GSAP -->
+		<script type="text/javascript" src="js/libs/gsap/TweenMax.min.js"></script>
+
+		<!-- dat.gui -->
+		<script type="text/javascript" src="js/libs/dat.gui.min.js"></script>
+
+		<!-- AudioContext monkeypatch -->
+		<script type="text/javascript" src="http://cwilso.github.com/AudioContext-MonkeyPatch/AudioContextMonkeyPatch.js"></script>
+
+		<!-- sketch -->
+		<script src="js/libs/sketch.min.js"></script>
+
+		<!-- main -->
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
